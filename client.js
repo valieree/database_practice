@@ -1,4 +1,4 @@
-// Конструктор, формирующий поля класса по объекту JSON
+
 class Employee {
     constructor(obj) {
         this.EMPLid = obj.EMPLid;
