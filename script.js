@@ -1,4 +1,5 @@
 var yandex_function_url = 'https://functions.yandexcloud.net/d4ettmlob39fu38jt503'
+
 $(document).ready(function () {
     $('#search_button').hide();
     $("#employee2").hide();
