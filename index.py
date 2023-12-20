@@ -23,7 +23,7 @@ def usual_responce(result):
 
 def employees_get_request(parameters):
   if parameters['data'] == 'automobile_list':
-    return usual_responce(pool.retry_operation_sync(reader.serial_numbers_with_models))
+    return usual_responce(pool.retry_operation_sync(reader.employees_with_clients))
   else:
     return bad_request('Incorrect query parameters')
 
